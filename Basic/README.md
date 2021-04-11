@@ -58,3 +58,13 @@ Examples of C++ expression:
 * Logical expressions
 * Bitwise expressions
 * Special assignment expressions
+
+
+## Stream
+A C++ stream is a flow of data into or out of a program, such as the data written to cout or read from cin.
+
+For this class we are currently interested in four different classes:
+* `istream` is a general purpose input stream. cin is an example of an istream.
+* `ostream` is a general purpose output stream. cout and cerr are both examples of ostreams.
+* `ifstream` is an input file stream. It is a special kind of an istream that reads in data from a data file.
+* `ofstream` is an output file stream. It is a special kind of ostream that writes data out to a data file.
